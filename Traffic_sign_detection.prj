@@ -1,0 +1,155 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\MATLAB\NB\2\TrafficSignRecognition\TrafficSignVideoTest\last jedi\project\Traffic_sign_detection.prj" location="D:\MATLAB\NB\2\TrafficSignRecognition\TrafficSignVideoTest\last jedi\project" name="Traffic_sign_detection" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>Traffic_sign_detection</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Num</param.authnamewatermark>
+    <param.email>rattapong_tt@kkumail.com</param.email>
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>D:\sign\sign\sign2\Screen Shot 2561-03-01 at 9.21.00 PM.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\Traffic_sign_detection\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\Traffic_sign_detection\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\Traffic_sign_detection\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\Traffic_sign_detection\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\Traffic_sign_detection</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="USB Webcams" enabled="true" name="USB Webcams" product="MATLAB"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.target.type />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Traffic_sign_detection.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\2000_stage15_0.2.xml</file>
+      <file>${PROJECT_ROOT}\competitionCode.m</file>
+      <file>${PROJECT_ROOT}\conanecateStruct.m</file>
+      <file>${PROJECT_ROOT}\elm_model.mat</file>
+      <file>${PROJECT_ROOT}\elm_train.m</file>
+      <file>${PROJECT_ROOT}\getXMLResult.m</file>
+      <file>${PROJECT_ROOT}\GTSRBImgDataRead.m</file>
+      <file>${PROJECT_ROOT}\hogcalculator.m</file>
+      <file>${PROJECT_ROOT}\isLightType.m</file>
+      <file>${PROJECT_ROOT}\mapId2TypeString2EN.m</file>
+      <file>${PROJECT_ROOT}\mapId2TypeString2TH.m</file>
+      <file>${PROJECT_ROOT}\parseXML.m</file>
+      <file>${PROJECT_ROOT}\sign_camera.fig</file>
+      <file>${PROJECT_ROOT}\sign_camera.m</file>
+      <file>${PROJECT_ROOT}\sign_soundEN</file>
+      <file>${PROJECT_ROOT}\sign_soundTH</file>
+      <file>${PROJECT_ROOT}\sign_video.fig</file>
+      <file>${PROJECT_ROOT}\sign_video.m</file>
+      <file>${PROJECT_ROOT}\soundNameEN.m</file>
+      <file>${PROJECT_ROOT}\soundNameTH.m</file>
+      <file>${PROJECT_ROOT}\stage10_0.4.xml</file>
+      <file>${PROJECT_ROOT}\stage15_0.2.xml</file>
+      <file>${PROJECT_ROOT}\Traffic_sign_detection.fig</file>
+      <file>${PROJECT_ROOT}\Traffic_sign_detection.m</file>
+      <file>${PROJECT_ROOT}\trainingScript.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\MATLAB\SupportPackages\R2016a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\PreviewController.p</file>
+      <file>C:\MATLAB\SupportPackages\R2016a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\Utility.p</file>
+      <file>C:\MATLAB\SupportPackages\R2016a\toolbox\matlab\webcam\supportpackages\+matlab\+webcam\+internal\WebcamController.p</file>
+      <file>C:\MATLAB\SupportPackages\R2016a\toolbox\matlab\webcam\supportpackages\webcam.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\Traffic_sign_detection\for_testing" name="Traffic_sign_detection.exe" optional="false">D:\MATLAB\NB\2\TrafficSignRecognition\TrafficSignVideoTest\last jedi\project\Traffic_sign_detection\for_testing\Traffic_sign_detection.exe</file>
+      <file location="${PROJECT_ROOT}\Traffic_sign_detection\for_testing" name="splash.png" optional="false">D:\MATLAB\NB\2\TrafficSignRecognition\TrafficSignVideoTest\last jedi\project\Traffic_sign_detection\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\Traffic_sign_detection\for_testing" name="readme.txt" optional="true">D:\MATLAB\NB\2\TrafficSignRecognition\TrafficSignVideoTest\last jedi\project\Traffic_sign_detection\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2016a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

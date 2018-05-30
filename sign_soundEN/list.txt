@@ -1,0 +1,51 @@
+﻿1. speed limited. 20 kilometers per hour.
+2. speed limited. 25 kilometers per hour.
+3. speed limited. 30 kilometers per hour.
+4. speed limited. 45 kilometers per hour.
+5. speed limited. 60 kilometers per hour.
+6. speed limited. 80 kilometers per hour.
+7. crossroad. beware the car from right side.
+8. crossroad. beware the car from left side.
+9. crossroad. beware the car from left and right side.
+10. cautious. Junction ahead.
+11. Beware of narrow bridge.
+12. Beware of central reservation.
+13. Lanes Merging Left. Beware car from left side.
+14. Signal Ahead. Reduce speed.
+15. U Turn Ahead.
+16. cautious. curve to left.
+17. reduce speed. beware of people crossing road.
+18. reduce speed. beware of people crossing road.
+19. keep left.
+20. Roundabout Ahead.
+21. No parking.
+22. reduce speed. Hump Ahead.
+23. Airport nearby.
+24. Enter no overtaking zone.
+25. No left turn.
+26. Enter No stopping zone.
+27. Give way to oncoming vehicles.
+28. No motorcycles.
+29. No cars.
+30. Stop car before the line.
+31. Go straight.
+32. Turn right.
+33. Beware of bicycles.
+34. No U Turn.
+35. Pass on either side.
+36. No Parking.
+37. Go straight or turn right.
+38. Entry.
+39. Exit.
+40. Parking zone.
+41. Turn right.
+42. Cautious. Curve to right.
+43. Cautious. Winding road.
+44. Go straight.
+45. Lanes Merging Right. Beware car from right side.
+46. Turn left.
+47. Cautious. Crossroads.
+48. Give way ahead.
+49. No Turn left.
+50. No go left.
+http://tts.softgateon.net/
